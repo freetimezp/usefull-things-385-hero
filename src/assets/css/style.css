@@ -39,6 +39,8 @@ nav {
 .site-name a {
     width: 4rem;
     font-family: "Righteous";
+    color: #e05e26;
+    mix-blend-mode: difference;
     font-size: 2rem;
 }
 
@@ -74,4 +76,9 @@ canvas {
     justify-content: space-between;
     align-items: flex-end;
     z-index: 2;
+}
+
+.hero-footer p {
+    color: #e05e26;
+    font-weight: 100;
 }

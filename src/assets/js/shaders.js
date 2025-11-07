@@ -1,4 +1,4 @@
-const vertexShader = `
+export const vertexShader = `
     varying vec2 vUv;
 
     void main() {
@@ -7,7 +7,7 @@ const vertexShader = `
     }
 `;
 
-const fluidFragmentShader = `
+export const fluidFragmentShader = `
     uniform sampler2D uPrevTrails;
     uniform vec2 uMouse;
     uniform vec2 uPrevMouse;
@@ -47,7 +47,7 @@ const fluidFragmentShader = `
     }
 `;
 
-const displayFragmentShader = `
+export const displayFragmentShader = `
     uniform sampler2D uFluid;
     uniform sampler2D uTopTexture;
     uniform sampler2D uBottomTexture;
